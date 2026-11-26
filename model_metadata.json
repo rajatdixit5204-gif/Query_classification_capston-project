@@ -1,0 +1,23 @@
+{
+  "best_model_name": "Random Forest",
+  "categories": [
+    "Admission",
+    "Fees",
+    "Exam",
+    "Hostel",
+    "Scholarship",
+    "Timetable",
+    "Library",
+    "Transport",
+    "Placement",
+    "Attendance"
+  ],
+  "dataset_rows": 5000,
+  "examples_per_category": 500,
+  "original_examples_retained": 180,
+  "synthetic_examples": 4820,
+  "selection_metric": "3-fold StratifiedGroupKFold mean macro-F1 on training split",
+  "holdout_accuracy": 0.8426294820717132,
+  "holdout_macro_f1": 0.8412142128225295,
+  "note": "Dataset combines original labelled queries and synthetic template-generated examples. Metrics are an internal benchmark and are not proof of real-world performance."
+}
